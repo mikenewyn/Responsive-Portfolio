@@ -1,0 +1,295 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body {
+    font-family: "Arial Helvetica Neue Helvetica sans-serif";
+    background-image: url("../images/diagonal-squares.png");
+}
+
+h1 {
+    font-family: "Georgia Times Times New Roman serif";
+    line-height: 50px;
+    text-align: center;
+}
+
+.container {
+    width: 960px;
+    height: 300px;
+    position: relative;
+    top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    
+}
+
+.container2 {
+    width: 960px;
+    height: 400px;
+    position: relative;
+    top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.container3 {
+    width: 960px;
+    height: 800px;
+    position: relative;
+    top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+#portfolio2 {
+    width: 98%;
+    height: 50px;
+    text-align: left;
+    background-color: #ffffff;
+    border-bottom: solid 2px #dddddd;
+    color: #4aaaa5;
+    float: left;
+    margin-left: 10px;
+    padding-bottom: 60px;
+}
+
+.portboxes {
+    position: relative;
+    width: 600px;
+    height: 700px;
+    top: 80px;
+
+}
+
+#hangman {
+    width: 200px;
+    height: 200px;
+    left: 10px;
+    position: absolute;
+    background-image: url("../images/hangman.jpg");
+    
+}
+
+#rpg {
+    width: 200px;
+    height: 200px;
+    left: 230px;
+    position: absolute;
+    background-image: url("../images/rpg.jpg");
+    
+    
+}
+
+#trivia {
+    width: 200px;
+    height: 200px;
+    left: 10px;
+    top: 220px;
+    position: absolute;
+    background-image: url("../images/trivia.jpg");
+    
+}
+
+#flagfootball {
+    width: 200px;
+    height: 200px;
+    left: 10px;
+    top: 440px;
+    position: absolute;
+    background-image: url("../images/flagfootball.jpg");
+    
+}
+
+#rock {
+    width: 200px;
+    height: 200px;
+    left: 230px;
+    top: 220px;
+    position: absolute;
+    background-image: url("../images/rockpaperscissors.jpg");
+
+}
+
+.boxlinks {
+    width: 100%;
+    height: 30px;
+    background: #4aaaa5;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    line-height: 30px;
+    color: white;
+    
+}
+#aboutme {
+    width: 98%;
+    height: 50px;
+    text-align: left;
+    background-color: #ffffff;
+    border-bottom: solid 2px #dddddd;
+    color: #4aaaa5;
+    float: left;
+    margin-left: 10px;
+    
+}
+
+#img {
+    margin: 10px;  
+    float: left;
+}
+
+.description {
+    background-color: #ffffff;
+    margin: 60px;
+    height: 300px;
+}
+
+#name {
+    width: 250px;
+    float: left;
+    height: 100px;
+    color: white;
+    background-color: #4aaaa5;
+    border: solid 1px #dddddd;
+    
+}
+
+.box1 {
+    width: 960px;
+    height: 100px;
+    position: relative;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid 1px #dddddd;
+
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    height: 100px;
+    border-bottom: solid 1px #dddddd;
+    z-index: 2;
+}
+
+#index {
+    position: absolute;
+    right: 165px;
+    background-color: #ffffff;
+    bottom: 40px;
+  
+}
+
+#portfolio {
+    position: absolute;
+    width: 70px;
+    text-align: center;
+    right: 90px;
+    background-color: #ffffff;
+    bottom: 40px;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+
+}
+
+#contact {
+    position: absolute;
+    right: 35px;
+    background-color: #ffffff;
+    bottom: 40px;
+
+}
+
+#contact2 {
+    width: 98%;
+    height: 50px;
+    text-align: left;
+    background-color: #ffffff;
+    border-bottom: solid 2px #dddddd;
+    color: #4aaaa5;
+    float: left;
+    margin-left: 10px;
+    padding-bottom: 60px; 
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #666666;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    padding-top: 25px;
+    border-top: solid #4aaaa5 8px;
+    z-index: 2;
+
+}
+
+.forms {
+    margin: 10px;
+    padding-top: 65px;
+}
+
+#yourmessage {
+    height: 100px;
+    width: 100%;
+}
+
+input[type=text] {
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* For desktop: */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 980px){
+}
+
+@media screen and (max-width: 768px){
+}
+@media screen and (max-width: 640px){  
+    .box1{width: 100%;}
+    .boxlinks{}
+}
